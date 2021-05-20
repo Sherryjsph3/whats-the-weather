@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajax Weather Lab</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script defer src="./js/script.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <h1>Weather Info</h1>
+    <main>
+      <h3>Weather For:</h3>
+      <p id="weather-for"></p>
+      <p>Temperature:</p>
+      <p id="temp"></p>
+      <p>Feels Like:</p>
+      <p id="feels-like"></p>
+      <p>Weather:</p>
+      <p id="weather"></p>
+    </main> 
+    <form>
+        <input id='search' type="text" placeholder="City Name"/>
+        <input type="submit" value="Get Weather Info"/>
+    </form>
+</body>
+</html>
