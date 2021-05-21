@@ -1,0 +1,33 @@
+body {
+text-align: center;
+font-family: fantasy;
+
+}
+
+main {
+    text-align: center;
+    
+}
+
+h1 {
+    color: rgb(62, 102, 233);
+    font-size: 40px;
+    text-decoration:rgb(62, 102, 233) underline ;
+}
+
+p {
+    color: rgb(94, 134, 172);
+    font-size: 20px;
+}
+
+input {
+    border: 3px solid rgb(94, 134, 172);;
+    font-size: 15px;
+    background-color: white;
+    font-family: fantasy;
+}
+#search {
+    background-color: white;
+    font-family: fantasy;
+}
+
