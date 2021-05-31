@@ -37,7 +37,4 @@ function handleGetWeather(event) {
 
 }
 
-
-
-
 $('form').on('submit', handleGetWeather);
