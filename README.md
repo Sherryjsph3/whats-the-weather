@@ -13,5 +13,5 @@ a simple app for checking the weather
 ![screenshot](imgs/workingapp.png)
 
 ## getting started
-[click here](#) to see working app
+[click here](https://sherryjsph3.github.io/whats-the-weather/) to see working app
 
