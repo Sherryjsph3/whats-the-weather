@@ -21,7 +21,7 @@ function handleGetWeather(event) {
 
 
     $.ajax({
-            url: `http://api.openweathermap.org/data/2.5/weather?q=${searchInfo}&appid=94cd9592d059de58b137bde5429358af&units=imperial`
+            url: `https://api.openweathermap.org/data/2.5/weather?q=${searchInfo}&appid=94cd9592d059de58b137bde5429358af&units=imperial`
         })
         .then(
             function (data) {
