@@ -14,12 +14,12 @@ a simple app for checking the weather
 ## Screenshots
 ### Wireframe
 ![wireframe](imgs/Whats-the-Weather.png)
-### Working app
-
-![screenshot](imgs/workingapplication.png)
-
+### Working app - - Old version
 ![results](imgs/workingapptwp.png)
-
+### Working app - - New
+![search page](imgs/search.png)
+![weather page](imgs/weather.png)
+![error page](imgs/error.png)
 ## Getting started
 [click here](https://sherryjsph3.github.io/whats-the-weather/) to see working app
 

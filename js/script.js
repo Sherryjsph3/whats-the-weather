@@ -42,6 +42,9 @@ function render() {
     } else {
         $image.attr("src", "");
     }
+
+    $error404.css("display", "none");
+    $error404.removeClass('fadeIn');
 }
 
 function handleGetWeather(event) {
