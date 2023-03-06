@@ -30,15 +30,15 @@ function render() {
 
 
     if (weatherData.weather[0].main == 'Clear') {
-        $image.attr("src", "../imgs/clear.png");
+        $image.attr("src", "./imgs/clear.png");
     } else if (weatherData.weather[0].main == 'Rain') {
-        $image.attr("src", "../imgs/rain.png");
+        $image.attr("src", "./imgs/rain.png");
     } else if (weatherData.weather[0].main == 'Snow') {
-        $image.attr("src", "../imgs/snow.png");
+        $image.attr("src", "./imgs/snow.png");
     } else if (weatherData.weather[0].main == 'Clouds') {
-        $image.attr("src", "../imgs/cloudy.png");
+        $image.attr("src", "./imgs/cloudy.png");
     } else if (weatherData.weather[0].main == 'Haze') {
-        $image.attr("src", "../imgs/haze.png");
+        $image.attr("src", "./imgs/haze.png");
     } else {
         $image.attr("src", "");
     }
