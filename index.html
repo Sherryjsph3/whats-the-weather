@@ -9,25 +9,52 @@
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script defer src="./js/script.js"></script>
     <link rel="stylesheet" href="./css/style.css">
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+     <!-- fontawesome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
 
-    <h1>What's the Weather🌦</h1>
-    <main>
-        <p>Weather For:</p>
-        <p id="weather-for"></p>
-        <p>Temperature:</p>
-        <p id="temp"></p>
-        <p>Feels Like:</p>
-        <p id="feels-like"></p>
-        <p>Weather:</p>
-        <p id="weather"></p>
-    </main>
-    <form>
-        <input id='search' type="text" placeholder="City Name" />
-        <input type="submit" value="Get Weather Info" />
-    </form>
+    <div class="container">
+        <div class="search-box">
+            <i class="fa-solid fa-location-dot"></i>
+            <input id='search' type="text" placeholder="Enter your location" />
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+
+
+        <div class="not-found">
+            <img class="error404" src="imgs/404error.jpg" alt="404 error">
+            <p>Sorry! Invalid location</p>
+        </div>
+
+        <div class="weather-block">
+            <img src="" alt="">
+            <p id="temp" class="temp"></p>
+            <p id="description" class="description"></p>
+        </div>
+
+        <div class="weather-details">
+            <div class="humidity">
+                <i class="fa-solid fa-water"></i>
+                <div class="text">
+                    <span></span>
+                    <p>Humidity</p>
+                </div>
+            </div>
+            <div class="wind">
+                <i class="fa-solid fa-wind"></i>
+                <div class="text">
+                    <span></span>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
 </body>
 
 </html>
